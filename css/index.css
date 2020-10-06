@@ -129,7 +129,7 @@ margin:10px 28px;
 #client-section::before{
    content: "";
    position: absolute;
-   background: url('/images/client.jpg') no-repeat center center/cover;
+   background: url("../images/client.jpg") no-repeat center center/cover;
    width: 100%;
    height: 100%;
    z-index: -1;
@@ -160,7 +160,7 @@ margin:10px 28px;
     height: 100%;
     z-index: -1;
     opacity: 0.6;
-    background: url(/images/contact.png) no-repeat center center/cover;
+    background: url("../images/contact.png") no-repeat center center/cover;
 }
 #contact-box{
     display: flex;
